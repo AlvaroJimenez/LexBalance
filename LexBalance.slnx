@@ -1,0 +1,30 @@
+<Solution>
+  <Folder Name="/Common/">
+    <Project Path="src/Common/LexBalance.Common/LexBalance.Common.csproj" />
+    <Project Path="src/Common/LexBalance.Contracts/LexBalance.Contracts.csproj" />
+  </Folder>
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Lawyers/">
+    <Project Path="src/Services/Lawyers/LexBalance.Lawyers.Api/LexBalance.Lawyers.Api.csproj" />
+    <Project Path="src/Services/Lawyers/LexBalance.Lawyers.Application/LexBalance.Lawyers.Application.csproj" />
+    <Project Path="src/Services/Lawyers/LexBalance.Lawyers.Domain/LexBalance.Lawyers.Domain.csproj" />
+    <Project Path="src/Services/Lawyers/LexBalance.Lawyers.Infrastructure/LexBalance.Lawyers.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Services/Cases/">
+    <Project Path="src/Services/Cases/LexBalance.Cases.Api/LexBalance.Cases.Api.csproj" />
+    <Project Path="src/Services/Cases/LexBalance.Cases.Application/LexBalance.Cases.Application.csproj" />
+    <Project Path="src/Services/Cases/LexBalance.Cases.Domain/LexBalance.Cases.Domain.csproj" />
+    <Project Path="src/Services/Cases/LexBalance.Cases.Infrastructure/LexBalance.Cases.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Services/Identity/">
+    <Project Path="src/Services/Identity/LexBalance.Identity.Api/LexBalance.Identity.Api.csproj" />
+    <Project Path="src/Services/Identity/LexBalance.Identity.Application/LexBalance.Identity.Application.csproj" />
+    <Project Path="src/Services/Identity/LexBalance.Identity.Domain/LexBalance.Identity.Domain.csproj" />
+    <Project Path="src/Services/Identity/LexBalance.Identity.Infrastructure/LexBalance.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LexBalance.Lawyers.Tests/LexBalance.Lawyers.Tests.csproj" />
+    <Project Path="tests/LexBalance.Cases.Tests/LexBalance.Cases.Tests.csproj" />
+    <Project Path="tests/LexBalance.Identity.Tests/LexBalance.Identity.Tests.csproj" />
+  </Folder>
+</Solution>
